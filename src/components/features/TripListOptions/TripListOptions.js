@@ -20,8 +20,11 @@ class TripListOptions extends React.Component {
   handleDuration(type, value){
     console.log('Changing duration', type, value);
     // TODO - use action dispatcher from props
-    this.props.changeDurationFrom(value);
-    this.props.changeDurationTo(value);
+    if(type === 'from') {
+      this.props.changeDurationFrom(value);
+    } else {
+      this.props.changeDurationTo(value);
+    }
   }
 
   handleSearch(phrase){
