@@ -55,7 +55,9 @@ class TripListOptions extends React.Component {
                 <input 
                   className={`${styles.input} ${styles.number}`} 
                   type='number' 
-                  value={filters.duration.from} min='1' max='14' 
+                  value={filters.duration.from || 1}
+                  min='1'
+                  max='14' 
                   onChange={event => this.handleDuration('from', event.currentTarget.value)} 
                 />
               </label>
@@ -64,7 +66,9 @@ class TripListOptions extends React.Component {
                 <input 
                   className={`${styles.input} ${styles.number}`} 
                   type='number' 
-                  value={filters.duration.to} min='1' max='14' 
+                  value={filters.duration.to || 14}
+                  min='1'
+                  max='14' 
                   onChange={event => this.handleDuration('to', event.currentTarget.value)} 
                 />
               </label>
