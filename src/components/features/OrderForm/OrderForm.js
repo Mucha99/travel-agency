@@ -36,7 +36,7 @@ const sendOrder = (options, tripCost) => {
     });
 };
 
-const OrderForm = ({tripCost, options, setOrderOption, id, name}) => (
+const OrderForm = ({tripCost, options, setOrderOption}) => (
   <Row>
     {pricing.map(option => (
       <Col md={6} key={option.id}>
@@ -45,7 +45,7 @@ const OrderForm = ({tripCost, options, setOrderOption, id, name}) => (
     ))}
     <Col xs={12}>
       <OrderSummary tripCost={tripCost} options={options}/>
-      <Button onClick={() => sendOrder(options, tripCost, id, name)}>Order now!</Button>
+      <Button onClick={() => sendOrder(options, tripCost)}>Order now!</Button>
     </Col>
   </Row>
 );
