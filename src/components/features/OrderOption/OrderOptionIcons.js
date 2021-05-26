@@ -1,6 +1,3 @@
-// className równy styles.icon oraz styles.iconActive – ale tylko jeśli dany element powinien być aktywny - JAK DODAĆ AKTYWNĄ KLASE ? 
-
-
 import React from 'react';
 import styles from './OrderOption.scss';
 import PropTypes from 'prop-types';
