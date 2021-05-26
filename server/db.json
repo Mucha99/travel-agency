@@ -1,0 +1,173 @@
+{
+  "orders": [
+    {
+      "car-rental": "suv",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive",
+        "kitchen",
+        "pool"
+      ],
+      "adults": "2",
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "2021-05-12T22:00:00.000Z",
+      "totalCost": "$63,438",
+      "id": 1
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive",
+        "kitchen",
+        "pool",
+        "security"
+      ],
+      "adults": "2",
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "2021-05-12T22:00:00.000Z",
+      "totalCost": "$67,438",
+      "id": 2
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "4",
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "2021-04-24T22:00:00.000Z",
+      "totalCost": "$123,276",
+      "id": 3
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 4
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 5
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive",
+        "kitchen",
+        "pool",
+        "security"
+      ],
+      "adults": "9",
+      "children": "6",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-06-01T22:00:00.000Z",
+      "totalCost": "$398,627",
+      "id": 6
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "all-inclusive",
+        "pool"
+      ],
+      "adults": "4",
+      "children": "1",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-06-27T22:00:00.000Z",
+      "totalCost": "$143,185",
+      "id": 7
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 8
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "hotel",
+      "features": [
+        "kitchen"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-06-03T22:00:00.000Z",
+      "totalCost": "$75,298",
+      "id": 9
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "hotel",
+      "features": [
+        "kitchen"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-06-03T22:00:00.000Z",
+      "totalCost": "$75,298",
+      "id": 10
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 11
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-06-02T22:00:00.000Z",
+      "totalCost": "$75,548",
+      "id": 12
+    }
+  ]
+}
