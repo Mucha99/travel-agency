@@ -3,10 +3,6 @@ import styles from './HappyHourAd.scss';
 import PropTypes from 'prop-types';
 
 class HappyHourAd extends React.Component {
-  static propTypes = {
-    title: PropTypes.string,
-    promoDescription: PropTypes.string,
-  };
 
   render (){
     const {title} = this.props;
@@ -19,9 +15,7 @@ class HappyHourAd extends React.Component {
   }
 }
 
-HappyHourAd.defaultProps = {
-  title: 'Happy Hour',
-  promoDescription: 'Happy Hour is on!',
+HappyHourAd.propTypes = {
+  title: PropTypes.string,
 };
-
 export default HappyHourAd;
